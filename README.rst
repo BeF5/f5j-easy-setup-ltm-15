@@ -27,6 +27,11 @@ F5のオフィシャルなドキュメントはこちらにございます。
 - 設定の保存とリストア
 - 冗長構成
 
+.. note::
+   本ドキュメントの手順は、F5 UDF (Universal Demonstration Framework)というラボ環境での実施を前提に書かれています。
+   UDF以外での環境で利用される場合は、IPアドレス等は環境に合わせて読み替えてください。
+
+
 .. toctree::
    :caption: Contents:
    :glob:
