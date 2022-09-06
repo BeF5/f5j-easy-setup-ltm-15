@@ -34,7 +34,10 @@ Cookieによるパーシスタンス
 クライアントからのHTTPアクセス
 --------------------------------------
 
-:ref:`label` と同内容を確認し、ブラウザの設定でcookieが登録されていることを確認します。
+:ref:`label` と同内容を確認し、ブラウザの設定でcookieが登録されていることを確認します。Chromeを利用している場合は、以下のいずれかの方法で確認します。
+
+- 設定 > プライバシーとセキュリティ > Cookieと他のサイトデータ > すべてのCookieとサイトデータを表示
+- ブラウザのアドレスバーで chrome://settings/siteData を入力
 
 .. figure:: images/mod5-2-4.png
    :scale: 20%
@@ -42,7 +45,6 @@ Cookieによるパーシスタンス
 
 **＜参考＞ Chrome v95の場合の確認手順**
 
-設定 > プライバシーとセキュリティ > Cookieと他のサイトデータ > すべてのCookieとサイトデータを表示
+.. note::
+   確認ができたら、次項以降のテストのために、Persistance ProfileをVirtual Serverの設定からはずします。
 
-
-確認ができたら、次項以降のテストのために、Persistance ProfileをVirtual Serverの設定からはずします。
